@@ -28,3 +28,4 @@ A basic web-based dashboard that displays in real-time system statistics from a 
 ## Hardware
 - Raspberry Pi 3 Model B
 - Raspbian OS
+
