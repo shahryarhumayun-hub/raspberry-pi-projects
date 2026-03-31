@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>System Monitor</title>
+	<meta http-equiv="refresh" content="5">
+	<style>
+		body { font-family: Arial, sans-serif; background: #1e1e1e; color: white; text-align: center; padding: 40px; }
+		h1 { color: #00ff88; }
+		.card { background #2e2e2e; border-radius: 10px; padding: 20px; margin: 10px auto; width: 300px; }
+		.value { font-size: 2em; color: #00ff88; }
+		.label { font-size: 0.9em; color #aaa; }
+	</style>
+</head>
+<body>
+	<h1> Pi System Monitor</h1>
+	<div class="card">
+		<div class="value">{{ cpu }}%</div>
+		<div class="label">CPU Usage</div>
+	</div>
+	<div class="card">
+                <div class="value">{{ temp }}Celsius</div>
+                <div class="label">CPU Temperature</div>
+        </div> 
+	<div class="card">
+                <div class="value">{{ ram }}%</div>
+                <div class="label">RAM Usage</div>
+        </div>
+	<div class="card">
+                <div class="value">{{ disk }}%</div>
+                <div class="label">Disk Usage</div>
+        </div>
+</body>
+<html>
+
+
